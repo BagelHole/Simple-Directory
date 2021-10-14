@@ -1,3 +1,4 @@
+// Scripts for Simple Directory 
 
 function table_search() {
   // Declare variables
