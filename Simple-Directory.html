@@ -5,113 +5,113 @@
 		<link rel="icon" type="image/png" href="">
 	</head>
 
-<header><img src="img/SimpleDirectory.png" style="max-height: 400px; max-width: 400px;" alternate="Directory"/></header>
+<header><img src="img/SimpleDirectory.png" alternate="Directory"/></header>
 
 <body>
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names/departments.." >
-<table border="1" align="center" style="width: 500px;" id="myTable">
-	<caption></caption>
-	<thead>
-		<tr>
-			<th>Picture</th>
-			<th>Name/Phone/Email</th>
-			<th>Department</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Rand al'Thor" height="100" width="75"></center></td>
-			<td><center>
-				Rand al'Thor<br>
-				312-123-4567<br>
-				thedragon123@tworivers.com
-			</center></td>
-			<td><center>Sales</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="al'Lan Mandragoran" height="100" width="75"></center></td>
-			<td><center>
-				al'Lan Mandragoran<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>IT</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Perrin Aybara" height="100" width="75"></center></td>
-			<td><center>
-				Perrin Aybara<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Engineering</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Matrim Cauthon" height="100" width="75"></center></td>
-			<td><center>
-				Matrim Cauthon<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Manufacturing</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Moiraine Damodred" height="100" width="75"></center></td>
-			<td><center>
-				Moiraine Damodred<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Machine Shop</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Nynaeve al'Meara" height="100" width="75"></center></td>
-			<td><center>
-				Nynaeve al'Meara<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Engineering</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Bob Smith" height="100" width="75"></center></td>
-			<td><center>
-				Bob Smith<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>IT</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="John Brown" height="100" width="75"></center></td>
-			<td><center>
-				John Brown<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Engineering</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Brandon Sanderson" height="100" width="75"></center></td>
-			<td><center>
-				Brandon Sanderson<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Machine Shop</center></td>
-		</tr>
-		<tr>
-			<td><center><img src="img/person.jpg" alt="Robert Jordan" height="100" width="75"></center></td>
-			<td><center>
-				Robert Jordan<br>
-				111-123-4567<br>
-				emailhere@gmail.com
-			</center></td>
-			<td><center>Sales</center></td>
-		</tr>
-	</tbody>
-
-</table>
+	<input type="text" id="myInput" onkeyup="table_search()" placeholder="Search for names/departments.." >
+	<table border="1" align="center" id="myTable">
+		<caption></caption>
+		<thead>
+			<tr>
+				<th>Picture</th>
+				<th>Name/Phone/Email</th>
+				<th>Department</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Rand al'Thor" height="100" ></center></td>
+				<td><center>
+					Rand al'Thor<br>
+					312-123-4567<br>
+					thedragon123@tworivers.com
+				</center></td>
+				<td><center>Sales</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="al'Lan Mandragoran" height="100" ></center></td>
+				<td><center>
+					al'Lan Mandragoran<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>IT</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Perrin Aybara" height="100"></center></td>
+				<td><center>
+					Perrin Aybara<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Engineering</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Matrim Cauthon" height="100"></center></td>
+				<td><center>
+					Matrim Cauthon<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Manufacturing</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Moiraine Damodred" height="100"></center></td>
+				<td><center>
+					Moiraine Damodred<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Machine Shop</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Nynaeve al'Meara" height="100"></center></td>
+				<td><center>
+					Nynaeve al'Meara<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Engineering</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Bob Smith" height="100"></center></td>
+				<td><center>
+					Bob Smith<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>IT</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="John Brown" height="100"></center></td>
+				<td><center>
+					John Brown<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Engineering</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Brandon Sanderson" height="100"></center></td>
+				<td><center>
+					Brandon Sanderson<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Machine Shop</center></td>
+			</tr>
+			<tr>
+				<td><center><img src="img/npc.png" alt="Robert Jordan" height="100"></center></td>
+				<td><center>
+					Robert Jordan<br>
+					111-123-4567<br>
+					emailhere@gmail.com
+				</center></td>
+				<td><center>Sales</center></td>
+			</tr>
+		</tbody>
+	</table>
+</body>
 
 <footer>
 	<p>Last Updated:<div id="date_updated"></div>
@@ -119,5 +119,4 @@
 </footer>
 
 <script type="text/javascript" src="script.js"></script>
-</body>
 </html>

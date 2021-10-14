@@ -1,4 +1,4 @@
-/*General styles*/
+/* General styles */
 html {
     font-size: 16px;
     font-family: 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
@@ -15,7 +15,15 @@ body {
 header {
 	text-align: center;
 }
+header img{
+    width: 50%;
+}
 
+footer {
+    text-align: center;
+}
+
+/* Search Bar Styles */
 #myInput {
     background-image: url('img/search.png'); /* Add a search icon to input */
     background-position: 8px 6px; /* Position the search icon */
@@ -29,3 +37,21 @@ header {
     margin-right: auto;
     margin-left: auto;
   }
+
+/* Table Styles */
+table{
+    width: 65%;
+}
+
+tr:hover {
+    background-color: rgb(219, 255, 255);
+}
+
+th {
+    background-color: #047a8a;
+    color: white;
+    font-size: x-large;
+}
+td {
+    font-size: larger;
+}

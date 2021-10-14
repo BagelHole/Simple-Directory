@@ -1,5 +1,5 @@
 
-function myFunction() {
+function table_search() {
   // Declare variables
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput");
