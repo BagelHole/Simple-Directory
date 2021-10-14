@@ -8,6 +8,11 @@ body {
 	background-color: #f4f4f4;
 }
 
+.dark-mode{
+    background-color: #222222;
+    color: white;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -54,6 +59,7 @@ table{
 
 tr:hover {
     background-color: rgb(219, 255, 255);
+    color:black;
 }
 
 th {
