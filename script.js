@@ -23,6 +23,19 @@ function table_search() {
 	  }
 }
 
+function dark_mode(){
+  if (document.getElementById("main_body").style.backgroundColor = "f4f4f4"){
+    document.getElementById("main_body").style.backgroundColor = "222222";
+    document.getElementById("dark").src = "img/outline_light_mode_white_24dp.png";
+    document.getElementById("myTable").style.color = "f4f4f4";
+    document.getElementById("footer").style.color = "f4f4f4";
+  }
+  else {
+    document.getElementById("main_body").style.backgroundColor = "f4f4f4";
+    document.getElementById("dark").src = "img/outline_dark_mode_black_24dp.png";
+  }
+}
+
 function date_updated() {
   document.getElementById("date_updated").innerHTML = (document.lastModified).substr(0, 10);
 }

@@ -15,8 +15,14 @@ body {
 header {
 	text-align: center;
 }
+
 header img{
     width: 50%;
+    margin-top: -3em;
+}
+
+.dark{
+    padding-top: 10em;
 }
 
 footer {
@@ -41,6 +47,9 @@ footer {
 /* Table Styles */
 table{
     width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 tr:hover {
@@ -51,7 +60,11 @@ th {
     background-color: #047a8a;
     color: white;
     font-size: x-large;
+    border: 1px solid black;
 }
 td {
     font-size: larger;
+    text-align: center;
+    border: 1px solid black;
+    border-style: outset;
 }

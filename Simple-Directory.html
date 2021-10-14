@@ -1,15 +1,20 @@
 <html>
 	<head>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" href="style.css">
 		<title> Simple Directory </title>
 		<link rel="icon" type="image/png" href="">
 	</head>
+	
+<a href="#" onclick="dark_mode()"><img src="img/outline_dark_mode_black_24dp.png" id="dark" /></a> 
 
-<header><img src="img/SimpleDirectory.png" alternate="Directory"/></header>
+<header>
+	<img src="img/SimpleDirectory.png" alternate="Directory" id="logo"/>
+</header>
 
-<body>
+<body id = "main_body">
 	<input type="text" id="myInput" onkeyup="table_search()" placeholder="Search for names/departments.." >
-	<table border="1" align="center" id="myTable">
+	<table id="myTable">
 		<caption></caption>
 		<thead>
 			<tr>
@@ -20,100 +25,100 @@
 		</thead>
 		<tbody>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Rand al'Thor" height="100" ></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Rand al'Thor" height="100" ></td>
+				<td>
 					Rand al'Thor<br>
 					312-123-4567<br>
 					thedragon123@tworivers.com
-				</center></td>
-				<td><center>Sales</center></td>
+				</td>
+				<td>Sales</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="al'Lan Mandragoran" height="100" ></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="al'Lan Mandragoran" height="100" ></td>
+				<td>
 					al'Lan Mandragoran<br>
-					111-123-4567<br>
+					112-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>IT</center></td>
+				</td>
+				<td>IT</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Perrin Aybara" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Perrin Aybara" height="100"></td>
+				<td>
 					Perrin Aybara<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Engineering</center></td>
+				</td>
+				<td>Engineering</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Matrim Cauthon" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Matrim Cauthon" height="100"></td>
+				<td>
 					Matrim Cauthon<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Manufacturing</center></td>
+				</td>
+				<td>Manufacturing</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Moiraine Damodred" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Moiraine Damodred" height="100"></td>
+				<td>
 					Moiraine Damodred<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Machine Shop</center></td>
+				</td>
+				<td>Machine Shop</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Nynaeve al'Meara" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Nynaeve al'Meara" height="100"></td>
+				<td>
 					Nynaeve al'Meara<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Engineering</center></td>
+				</td>
+				<td>Engineering</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Bob Smith" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Bob Smith" height="100"></td>
+				<td>
 					Bob Smith<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>IT</center></td>
+				</td>
+				<td>IT</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="John Brown" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="John Brown" height="100"></td>
+				<td>
 					John Brown<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Engineering</center></td>
+				</td>
+				<td>Engineering</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Brandon Sanderson" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Brandon Sanderson" height="100"></td>
+				<td>
 					Brandon Sanderson<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Machine Shop</center></td>
+				</td>
+				<td>Machine Shop</td>
 			</tr>
 			<tr>
-				<td><center><img src="img/npc.png" alt="Robert Jordan" height="100"></center></td>
-				<td><center>
+				<td><img src="img/npc.png" alt="Robert Jordan" height="100"></td>
+				<td>
 					Robert Jordan<br>
 					111-123-4567<br>
 					emailhere@gmail.com
-				</center></td>
-				<td><center>Sales</center></td>
+				</td>
+				<td>Sales</td>
 			</tr>
 		</tbody>
 	</table>
 </body>
 
-<footer>
+<footer id = "footer">
 	<p>Last Updated:<div id="date_updated"></div>
 	</p>
 </footer>
